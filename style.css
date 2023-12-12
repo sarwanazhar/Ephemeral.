@@ -1,0 +1,301 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nimbus Sans L";
+    font-weight: 600;
+}
+#main{
+    width: 100%;
+}
+#nav{
+    padding: 3vw 10vw;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+.nleft{
+    display: flex;
+    gap: 30px;
+}
+#nav a{
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+#nav #centeratag{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 17px;
+    transform: translate(-50%, -50%);
+}
+#hero{
+    width: 100%;
+    padding: 3vw 10vw;
+    margin-top: 15vw;
+    display: flex;
+    justify-content: space-between;
+}
+#sustain{
+    width: 13vw;
+    margin-top: 5vw;
+}
+#sustain p {
+    font-size: 12px;
+    margin: 10px 0;
+    opacity: .5;
+    text-transform: capitalize;
+
+}
+#sustain .susimage{
+    width: 13vw;
+    height: 20vw;
+    overflow: hidden;
+}
+.susimage img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#ephemeral{
+    width: 30vw;
+    min-height: 42vw;
+    position: relative;
+}
+#imgtext{
+    width: fit-content;
+    height: fit-content;
+}
+#ephemeral p{
+    font-size: 1.2vw;
+    width: 40%;
+    font-weight: 800;
+}
+#ephemeral #headings{
+    position: absolute;
+    top: -23%;
+    left: -20%;
+}
+#ephemeral img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#ephemeral h1{
+    font-size: 6vw;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: -.4vw;
+}
+.circlev{
+    width: 3vw;
+    height: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #606060;
+    border-radius: 50%;
+}
+.circlev i{
+    color: #dadada;
+}
+#visit h3{
+    color: #606060;
+}
+#visit{
+    display: flex;
+    margin-bottom: 8vw;
+    gap: 10px;
+    align-items: center;
+}
+#motive{
+    padding: 3vw 10vw;
+}
+#motive h3{
+    color: #686868;
+
+}
+#motive p{
+    display: flex;
+    align-items: center;
+    font-size: 2vw;
+    position: relative;
+    right: 0;
+    font-weight: 500;
+    line-height: 1.7;
+    letter-spacing: -.15vw;
+    text-align: right;
+    margin-left: 4vw;
+
+    flex-wrap: wrap;
+}
+#motive span{
+    width: 120px;
+    height: 45px;
+    border-radius: 100px;
+    margin: 0 10px;
+    display: inline-block;
+    background: red;
+    margin: 0 12px;
+    margin-bottom: -12.5px;
+}
+#motive #onespan{
+    width: 80px;
+    height: 50px;
+    background-image: url("./images/bluegirl.jpg");
+    background-position: 0% 60%;
+    background-size: cover;
+}
+#motive #twospan{
+    width: 120px;
+    height: 50px;
+    background-image: url("./images/shaljam.jpg");
+    background-position: 0% 45%;
+    background-size: cover;
+}
+#motive #threespan{
+    width: 80px;
+    height: 50px;
+    background-image: url("./images/grass.jpg");
+    background-position: 0% 60%;
+    background-size: cover;
+}
+#motive #fourspan{
+    width: 80px;
+    height: 50px;
+    background-image: url("./images/weed.avif");
+    background-position: 0% 60%;
+    background-size: cover;
+}
+#picture{
+    padding-left: 14vw;
+    padding-right: 12vw;
+    padding: 3vw;
+    margin-top: 7vw;
+    margin-left: 6vw;
+    margin-right: 8vw;
+    display: flex;
+    justify-content: space-between;
+}
+#secpic{
+    width: 22vw;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+}
+#sectpic #picimg{
+    background-color: red;
+    width: 100%;
+    height: 24vw;
+    margin-bottom: 1vw;
+}
+#secpic h1{
+    letter-spacing: -.1vw;
+    font-size: 2vw;
+    font-weight: 100;
+    opacity: .8;
+}
+#secpic p{
+    font-size: 1vw;
+    margin-top: 10px;
+    line-height: 1;
+    text-align: right;
+    width: 50%;
+}
+#picimg img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#firstpic{
+    width: 17vw;
+
+}
+#firstpic #picimg{
+    width: 100%;
+    height: 24vw;
+    margin-bottom: 1vw;
+}
+#firstpic h1{
+    letter-spacing: -.1vw;
+    font-size: 2vw;
+    font-weight: 100;
+    opacity: .8;
+}
+#firstpic p{
+    font-size: 14px;
+}
+#banner{
+    width: 100%;
+    margin-top: 8vw;
+    display: flex;
+    align-items: center;
+}
+.bimg{
+    width: 65%;
+    height: 70vh;
+}
+.bimg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: 0% 77%;
+}
+#btext{
+    width: 35%;
+    padding: 0 3vw;
+}
+#btext h1{
+    font-size: 2.4vw;
+    font-weight: 400;
+    letter-spacing: -.1vw;
+    line-height: 1;
+    color: rgb(76, 72, 72)
+}
+#btext p{
+    margin-top: 20px;
+    min-width: 60%;
+}
+#future{
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+#future video{
+    opacity: 0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1.2);
+}
+#ftext{
+    position: relative;
+    z-index: 99;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    padding: 1vw 3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#ftext button{
+    padding: .7vw 1.7vw;
+    letter-spacing: -.05vw;
+    font-size: .9vw;
+    text-transform: capitalize;
+    font-weight: 700;
+    background-color: #fff;
+    border-radius: 100px;
+    border: 1px solid #c6c6c6;
+    color: #565353;
+}
